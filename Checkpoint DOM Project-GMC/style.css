@@ -1,0 +1,94 @@
+/* .btn {
+  background-color: pink;
+}
+.navbar {
+  background-color: pink !important;
+} */
+body{
+  background-color:#CDF0EA;
+}
+.container-fluid{
+  background-color: pink;
+  font-weight:bolder;
+  
+}
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+.d-flex{
+  
+  margin: 2% 10%; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 5%;
+  
+  }
+
+
+.card{
+  width: 200 px;
+  padding: 1%;
+  text-align: center;
+  background-color:beige;
+  border-radius: 16px;
+  
+  
+}
+
+.card-header{
+  background-color:bisque;
+  display: flex;
+  justify-content: space-between;
+  font-size:20px ;
+} 
+
+.card-title{
+  font-size: 25px;
+  color: blue;
+}
+
+.card-footer{
+  background-color:bisque;
+  
+}
+.row-control{
+display: flex;
+justify-content: space-between;
+}
+.col-md-4{
+display: flex;
+justify-content: left;
+}
+
+
+.col {
+  padding: 1%;
+  background-color: beige;
+  border: solid;
+  border-radius: 16px;
+  margin-right: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.col p{
+  color: blue;
+  font-weight:bold;
+  text-align: center;
+}
+
+.total-price{
+  margin-left: 5%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.total-price img {
+  width: 200px;
+  border-radius: 16px;
+}
